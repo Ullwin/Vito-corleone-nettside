@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="report.css" />
+  </head>
+  <body>
+    <header>
+      <a href="/index.html"><img src="/img/logo.png" alt="HomePage" /></a>
+      <ul>
+        <li>
+          <a href="/meny/meny.html"><button>Menu</button></a>
+        </li>
+        <li>
+          <a href="/book-bord/bookbord.html"><button>Book Table</button></a>
+        </li>
+      </ul>
+    </header>
+
+    <div id="report">
+      <h1>Accessibility report</h1>
+      <p>
+        When we started building this project, the first thing we did was to
+        read the material linked in the assignment. We read all about SEO and
+        user accessibility and implemented it to the best of our ability, all
+        while embarking on making our first website and working as a team
+        together for the first time. We tried to implement good SEO, and
+        researched keywords for the website like “restaurant” “Italian” “menu”
+        and the area it should be visible in.
+      </p>
+      <p>
+        Then we read about how to upload a sitemap of our webpage to google to
+        get crawled, and tried to build our frontpage good enough to get indexed
+        by google. After that we carefully linked all the pages of our webpage,
+        to ensure that all the pages were internally linked and no page ended up
+        orphaned. The website setup started out as a mess, since none of us had
+        any knowledge of how to make a clean and organized page, and at the same
+        time work with CSS to make it look and feel seamless.
+      </p>
+      <p>
+        Accessibility was our main focus making this page. Since there is a lot
+        to learn and do to ensure accessibility for all, the job would be too
+        big for us to implement all at once, so we decided to focus on people
+        using screen readers, and people using keyboard navigation. To ensure
+        accessibility for these groups, we downloaded the chrome extension
+        “Screen reader by google chrome” which helped us understand how people
+        using screen readers experience and interact with the internet. We used
+        the text-to-speech function to learn how our website could be further
+        improved, along with playing around with the keyboard navigation.
+      </p>
+      <p>
+        Through this process, we visited a lot of different websites to try to
+        experience the difficulties people with screen readers and keyboard
+        users come across to access universal information. Some pages were easy
+        to navigate, while some, even important government websites, were almost
+        impossible to navigate to get the information you were after. After
+        using the knowledge we gathered to try to make our website as easy to
+        navigate as possible. We were deeply affected by the challenges
+        accessibility pose, especially for the elderly population. One of us has
+        a visually impaired grandparent that is dependent on this service every
+        day, which we had in mind throughout our project. This challenge really
+        motivated and inspired us to work with and ensure accessibility in our
+        future projects both at university and when we eventually enter the
+        workforce.
+      </p>
+      <p>
+        After we were done with the HTML and CSS we used an online accessibility
+        checker to validate our website. According to the accessibility check we
+        had five errors that needed correction. We found out that we had a
+        floating &lt;/div&gt; that did nothing. We also found that our buttons
+        shouldn’t be placed inside the &lt;a&gt; element, but rather have the
+        button as its own element with &lt;button onclick&gt;. This problem
+        occurred twice in the code in two different HTML files. After resolving
+        the problems the accessibility checker made us aware of, we put our
+        website through the website accessibility checker once more to see if it
+        found any other errors. It pointed out that there was another error that
+        we created when we resolved the other issues with our site, after fixing
+        this problem as well the validator reported no issues with the site. As
+        it did not point out any further issues we concluded that the website
+        had reached its full potential. The site is by no means perfect, and a
+        professional may have made a better one in less than a minute. But in
+        the end, we were happy with the results, but most of all the personal
+        and team progress we made by this challenge.
+      </p>
+    </div>
+    <footer>
+      <div id="block1">
+        <h3>Vito Corleone</h3>
+        <p>
+          Genovaroad 34 <br />
+          0156 Italy <br />
+          Manager: Giuseppe D’Angeli <br />
+          Email: reservation@VitoCorleone.com <br />
+          Phone: 916 31 700
+        </p>
+        <br />
+      </div>
+      <div id="block2">
+        <h3>OPENING HOURS:</h3>
+        <p>
+          Opening Hours: <br />
+          Monday - Friday 10:00-16:00 <br />
+          Saturday 10:00-17:00 <br />
+          Sundays Closed <br />
+          We are closed on Christmas Eve, 1st and 2nd Christmas Day, New Year's
+          Eve and 1st New Year's Day.
+        </p>
+      </div>
+      <div id="block3">
+        <h5>FOLLOW US ON INSTAGRAM</h5>
+      </div>
+    </footer>
+  </body>
+</html>
